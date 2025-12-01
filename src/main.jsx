@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <UserProvider>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/ProyectoLimpiezaReact">
           <App />
         </BrowserRouter>
       </CartProvider>
